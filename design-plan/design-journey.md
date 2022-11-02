@@ -18,25 +18,24 @@ Be clear and concise in your writing. Bullets points are encouraged.
 ### Project (Milestone 1)
 > Which project will you add interactivity to enhance the site's functionality?
 
-Project (TODO: 1 or 2)
-
+Project 1
 
 ### Audience (Milestone 1)
 > Briefly explain your site's audience.
 > Be specific and justify why this audience is a **cohesive** group.
 
-TODO: site's _cohesive_ audience
-
+The audience of this site are students of Cornell and those interested in learning more about the club. This tends to be photographers and videographers, as well as members and individuals of other clubs or organizations looking to collab with our club. Site visitors likely want to learn more about the club and understand what the club has to offer.
 
 ### Audience's Goals (Milestone 1)
 > List the audience's goals that you identified in Project 1 or 2.
 > Simply list each goal. No need to include the "Design Ideas and Choices", etc.
 > You may adjust the goals if necessary.
 
-- TODO: goal 1
-- TODO: goal 2
-- TODO: ...
+Goal 1: To learn more about Capture at Cornell - it's past and present offerings, what they do, if they want to join.
 
+Goal 2: To join the club by filling out the quick form, or to contact the e-board.
+
+Goal 3: To collab with the club by filling out the form.
 
 ## Interactivity Design (Milestone 1)
 
@@ -45,10 +44,12 @@ TODO: site's _cohesive_ audience
 > Briefly explain each idea and provide a brief rationale for how the interactivity enhances the site's functionality for the audience.
 > Note: You may find it easier to sketch for brainstorming. That's fine too. Do whatever you need to do to explore your ideas.
 
-- TODO: idea 1
-- TODO: idea 2
-- TODO: ...
-
+- A carousel of photos showing off the club g-bodys
+- E-board grid which shows all the images, and clicking an individual expands their bio.
+- An e-board carousel that works in a similar way to the grid
+- A hamburger menu that slides away or persists.
+- A purely decorational camera that flashes when clicked.
+- The C@C logo spins when hovered.
 
 ### Interactivity Design Ideation (Milestone 1)
 > Explore the possible design solutions for the interactivity.
