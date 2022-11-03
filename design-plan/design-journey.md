@@ -50,14 +50,14 @@ Goal 3: To collab with the club by filling out the form.
 - A hamburger menu that slides away or persists.
 - A purely decorational camera that flashes when clicked.
 - The C@C logo spins when hovered.
+- Dark mode!
 
 ### Interactivity Design Ideation (Milestone 1)
 > Explore the possible design solutions for the interactivity.
 > Sketch several iterations of your interactivity.
 > Annotate each sketch explaining what happens when a user takes an action. (e.g. When user clicks this, something else appears.)
 
-TODO: idea sketches
-
+![](design_sketch1.jpg)
 
 ### Final Interactivity Design (Milestone 1)
 > Create _polished_ sketch(es) (it's still a sketch, but with a little more care taken to communicate ideas clearly to the graders) to plan your interactivity.
@@ -66,40 +66,63 @@ TODO: idea sketches
 > Add annotations to explain what happens when the user takes an action.
 > Include as many sketches as necessary to communicate your design (ask yourself, could another 1300 take these sketches an implement my design?)
 
-TODO: final sketch(es)
+![](design_sketch2.jpg)
 
+![](design_sketch3.jpg)
 
 ### Interactivity Rationale (Milestone 1)
 > Describe the purpose of your proposed interactivity.
 > Provide a brief rationale explaining how your proposed interactivity addresses the goals of your site's audience.
 > This should be about a paragraph. (3-5 sentences)
 
-TODO: design rationale
-
+This website is primarily a media-oriented website. Therefore, the interactive features are those that are targeted to showing off media in a aesthetic and functional way. Therefore, I choose to use features such as a carousel and gallery view for the purposes of displaying photos. Other features an improved menu bar, and some cosmetic additions purely for style.
 
 ## Interactivity Implementation Plan (Milestone 1)
 
 ### Interactivity Planning Sketches (Milestone 1)
-> Produce planning sketches that include all the details another 1300 student would need to implement your interactivity design.
 
-TODO: planning sketches
-
+![](interactivity_sketch.jpg)
 
 ### Interactivity Pseudocode Plan (Milestone 1)
 > Write your interactivity pseudocode plan here.
 > Pseudocode is not JavaScript. Please do not put JavaScript code here.
 
-```
-TODO: pseudocode
-```
+**Carousel:**
+On load, itemA is only element without .hidden
+When button a is clicked:
+- add .hidden to current item
+- remove .hidden to itemA
 
+Every 5 seconds, display next item by adding .hidden to the current item and removing .hidden to the next item.
+
+On hover, a button will lower its opacity and change the cursor to infer feedback.
+
+**Gallery**
+On load, the grid of buttons as thumbnails will appear.
+When button a is clicked, for example:
+- remove .hidden from itemA
+
+When the exit button on itemA is clicked,
+- add .hidden back to itemA
+
+When the next/prev arrow is clicked,
+- add .hidden to the current item showing
+- remove .hidden to the next/prev item
+
+**Logo Spin**
+When mouse hovers over the logo
+- Rotate the logo with a exponential "s" acceleration
+
+**Image Cards**
+When mouse hovers over a card
+- remove .hidden from textA
+- set opacity to around 70% for clarity
 
 ### "Ambitious" Interactivity Explanation (Milestone 1)
 > In your own words, concisely explain why you believe your interactivity meets the "ambitious" requirement.
 > This should be a few sentences. (1-3 sentences)
 
-TODO: ambitious justification
-
+The design is ambitious because it will attempt to implement a number of interactive features that will enhance the user experience. The carousel, for example, auto advances every few seconds, and the gallery with preview, have the ability to go to the previous or next element. The menu bar persisting, the logo spinning, are cosmetic and aesthetic changes that will contribute to the quality of the user experience. Altogether, there are a number of complex features to be implemented that should make for an ambitious project.
 
 ## Grading (Final Submission)
 
