@@ -24,7 +24,7 @@ Project 1
 > Briefly explain your site's audience.
 > Be specific and justify why this audience is a **cohesive** group.
 
-The audience of this site are students of Cornell and those interested in learning more about the club. This tends to be photographers and videographers, as well as members and individuals of other clubs or organizations looking to collab with our club. Site visitors likely want to learn more about the club and understand what the club has to offer.
+The audience of this site are students of Cornell and those interested in learning more about the club. This tends to be photographers and videographers, as well as members and individuals of other clubs or organizations looking to collab with our club. Site visitors likely want to learn more about the club and understand what the club has to offer. This is a cohesive group because they all have a common interest in photography and videography, and are looking to learn more about the club, and are a subset of Cornell.
 
 ### Audience's Goals (Milestone 1)
 > List the audience's goals that you identified in Project 1 or 2.
@@ -122,7 +122,7 @@ When mouse hovers over a card
 > In your own words, concisely explain why you believe your interactivity meets the "ambitious" requirement.
 > This should be a few sentences. (1-3 sentences)
 
-The design is ambitious because it will attempt to implement a number of interactive features that will enhance the user experience. The carousel, for example, auto advances every few seconds, and the gallery with preview, have the ability to go to the previous or next element. The menu bar persisting, the logo spinning, are cosmetic and aesthetic changes that will contribute to the quality of the user experience. Altogether, there are a number of complex features to be implemented that should make for an ambitious project.
+The design is ambitious because it will attempt to implement a number of interactive features that will enhance the user experience. The carousel, for example, auto advances every few seconds, and the gallery with preview, have the ability to go to the previous or next element. Most importantly, I made the card feature for the e-board. There is significant coding required in HTML, CSS, and JS, and I believe that this will be a challenge to implement, similar to that of the examples provided. However, it will add an element of aesthetic and functionality to the website.
 
 ## Grading (Final Submission)
 
@@ -130,8 +130,10 @@ The design is ambitious because it will attempt to implement a number of interac
 > Explain how your design effectively uses affordances, visibility, feedback, and familiarity.
 > Write a large paragraph (4-6 sentences)
 
-TODO: interactivity rationale
-
+Affordances: when the user hovers their mouse over an interactive element, the element lowers capacity and the cursor indicates the ability to click. The outline of the thumbnail indicates the selected image, and the auto-advance suggests the ability to change the image.
+Visiblity: For the gallery, the three available thumbnails are available to cycle through. For the e-board cards, the full bio is hidden until the card is clicked, for brevity and because the bio need not immediately be visible.
+Feedback: When an item is clicked, the gallery image changes to it. For the cards, they "flip" and the bio is revealed.
+Familiarity: The gallery is certainly a familiar pattern that most users will have no trouble working with. The cards for the e-board may be newer for some, but the affordances and ease of interaction will help them to learn it quickly.
 
 ### Tell Us What to Grade (Final Submission)
 > We aren't re-grading your Project 1 or 2.
@@ -139,28 +141,24 @@ TODO: interactivity rationale
 > Tell us where (what pages) we can find your interactivity and how to use it.
 > **We will only grade what you list here;** if it's not listed, we won't grade it.
 
-TODO: what should we grade
-
+Please grade the image gallery on the home page, and the card gallery of the e-board on the about page.
 
 ### Collaborators (Final Submission)
 > List any persons you collaborated with on this project.
 
-TODO: list your collaborators
-
+None.
 
 ### Reference Resources (Final Submission)
 > Please cite any external resources you referenced in the creation of your project.
 > (i.e. W3Schools, StackOverflow, Mozilla, etc.)
 
-TODO: list reference resources
-
+StackOverflow, Mozilla Dev Reference.
 
 ### Self-Reflection (Final Submission)
 > This was the first project in this class where you coded some JavaScript. What did you learn from this experience?
 
-TODO: self-reflection
-
+I found JS to be largely straightforward and similar to programming I've done in Java (no surprise there). I found code repetition to be annoying and tedious, and would like to learn how to reduce repetition. For example, on the lab, I reduced the originally 30+ lines of code to just one function and four function calls. I would have liked to do the same here, but couldn't sus it out. I wanted a working website, even if there's ugly work under the hood.
 
 > Take some time here to reflect on how much you've learned since you started this class. It's often easy to ignore our own progress. Take a moment and think about your accomplishments in this class. Hopefully you'll recognize that you've accomplished a lot and that you should be very proud of those accomplishments!
 
-TODO: self-reflection
+After some experimenting, I've not only learned to create website, but create them so they are visually pleasing and aesthetic. Though these ideas weren't taught in class, it was fun to explore different design choices - I ultimately went with the "card" design language (which is entirely for styling, not content, but enhances the experience nonetheless).
